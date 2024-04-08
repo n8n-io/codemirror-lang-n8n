@@ -221,3 +221,27 @@ a {{ 'áßи' }} a
 ==>
 
 Program(Plaintext, Resolvable, Plaintext)
+
+# Resolvable with currency symbol
+
+{{ '€' }}
+
+==>
+
+Program(Resolvable)
+
+# Resolvable with cyrillic char
+
+{{ 'л' }}
+
+==>
+
+Program(Resolvable)
+
+# Resolvable with devanagri char
+
+{{ 'व' }}
+
+==>
+
+Program(Resolvable)

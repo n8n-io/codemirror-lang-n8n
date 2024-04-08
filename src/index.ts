@@ -1,4 +1,5 @@
 import { completeFromList } from "@codemirror/autocomplete";
+// @ts-ignore
 import { parser } from "./syntax.grammar";
 import {
   LRLanguage,
@@ -18,7 +19,6 @@ export const parserWithMetaData = parser.configure({
       CloseMarker: t.brace,
       Plaintext: t.content,
       Resolvable: t.string,
-      BrokenResolvable: t.className,
     }),
   ],
 });

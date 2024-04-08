@@ -214,38 +214,6 @@ Program(Plaintext)
 
 Program(Plaintext)
 
-# BrokenResolvable of two opening braces
-
-{{
-
-==>
-
-Program(BrokenResolvable)
-
-# BrokenResolvable of two opening braces and text
-
-{{text
-
-==>
-
-Program(BrokenResolvable)
-
-# BrokenResolvable of two opening braces and one closing brace
-
-{{ }
-
-==>
-
-Program(BrokenResolvable)
-
-# BrokenResolvable of two opening braces, text and one closing brace
-
-{{ abc }
-
-==>
-
-Program(BrokenResolvable)
-
 # Plaintext then Resolvable with non-ASCII chars then Plaintext
 
 a {{ 'áßи' }} a

@@ -238,9 +238,17 @@ Program(Resolvable)
 
 Program(Resolvable)
 
-# Resolvable with devanagri char
+# Resolvable with Pictographs char
 
-{{ 'व' }}
+{{ '🎉' }}
+
+==>
+
+Program(Resolvable)
+
+# Resolvable with Emoticons char
+
+{{ '😎' }}
 
 ==>
 
